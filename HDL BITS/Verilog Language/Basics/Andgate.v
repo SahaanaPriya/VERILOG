@@ -1,4 +1,4 @@
-module and_gate( 
+module top_module( 
     input a, 
     input b, 
     output out );
