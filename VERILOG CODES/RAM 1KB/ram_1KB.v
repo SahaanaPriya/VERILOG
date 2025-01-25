@@ -1,11 +1,11 @@
 module ram_1KB(reset_b,
-	           clock,
+	       clock,
                chip_select,
                write_address,
                write_enable,
                write_data,
                read_enable,
-	           read_address,
+	       read_address,
                read_data);
 
    parameter ADDR_WIDTH  = 10;
